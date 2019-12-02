@@ -80,6 +80,3 @@ rule based : -> limited
   The third approach, called the Combined Class Method, uses SMOTE to interpolate noisy data points on the boundary between outliers and inliers and the nearest neighbour technique to clean the data near the separatrix of both classes, making datasets cleaner and easier to distinguish.
   
  
- 
-  
-  
