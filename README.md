@@ -22,9 +22,14 @@ Flag set Up :
 
 
 Project 3 : (Week 3.5 + 4) 
+PREDICTION SYSTEM FOR 
 - Operation Profit 
-- Coupon Used 
+- FUTURE POSSIBLE Coupon UseAGE  
 - etc 
+
+ 
+Artificial Intelligence can be used to calculate and analyse cash flows and predict future scenarios
+  
 
 
 FUTURE : 
