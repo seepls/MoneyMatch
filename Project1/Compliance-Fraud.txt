@@ -5,6 +5,7 @@ Protect Investors and ensure markets are fair efficient and transparent.
 Fraud : 
 1. bank and credit card threat 
 2. Money laundring 
+3. identity theft
 
 transactions are declined by fraud management systems. 
 
