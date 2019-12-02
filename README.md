@@ -34,6 +34,6 @@ Artificial Intelligence can be used to calculate and analyse cash flows and pred
 
 FUTURE : 
 - USING NLP IN COMPLIANCE 
-- Provide Compliance as Service 
+- Provide Compliance as Service  / Compliance solution 
 
 
