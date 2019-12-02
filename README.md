@@ -14,10 +14,9 @@ Engenering team : Compliance System Integrated with ML
 Project 2:  ( Week 2 + week 3.5  ) 
 
 Flag set Up :
-what all to flag 
-what to look at 
-MA :
-Already Working on it 
+- what all to flag 
+- what to look at (MA) :
+- Already Working on it, what features to 
 
 
 Project 3 : (Week 3.5 + 4) 
