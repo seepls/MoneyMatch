@@ -1,6 +1,8 @@
 ### MoneyMatch
 Internship at MoneyMatch
 
+NICHE OF THE STARTUP : UNDERSERVED CUSTOMERS 
+
 ML in Finance 
 
 Project 1 :  (Week 1 ) 
