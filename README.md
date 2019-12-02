@@ -25,6 +25,8 @@ Project 3 : (Week 3.5 + 4)
 - etc 
 
 
+FUTURE : 
+- USING NLP IN COMPLIANCE 
 
 
 
