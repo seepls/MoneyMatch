@@ -1,0 +1,84 @@
+Compliance : 
+External rules and internal controls
+Protect Investors and ensure markets are fair efficient and transparent.
+
+Fraud : 
+1. bank and credit card threat 
+2. Money laundring 
+
+transactions are declined by fraud management systems. 
+
+lost sales when genuine transactions are declined by fraud management systems.
+
+
+AIM : 
+challenge for banks and financial institutions then is to quickly identify and separate fraudulent transactions from those that are legitimate, without impacting on customer experience
+
+
+TRADITIONAL way : 
+manual 
+rule based : -> limited
+
+
+ -> flagging suspicious transactions has to be established and reviewed manually.
+ 
+ 
+  Banks and financial institutions are able to automate the analysis of their customers’ behavioral patterns for any signs of abnormality, giving them the ability to identify and flag fraudulent activity in real-time.
+  
+  
+  reduction in the number of false positives, where transactions are incorrectly flagged as fraudulent and declined, and false negatives, where genuine incidences of fraud are missed. 
+  
+  
+  
+  
+  HOW TO PREDICT AND DETECT FRAUD USING ML :
+  a combination of supervised and unsupervised machine learning methods are needed to create a model with sufficient predictive capability and accuracy
+  
+  
+  Model Parameters useful for fraud detection 
+  
+  
+  
+  Start with labeled data OF FRAUD DETECTED  : SUPERVISED Learning 
+  to learn complex patterns in datasets provided by a business
+  
+  UNSUPERVISED LEARNING HERE : 
+  deals with datasets that have not been labeled and infers inner data structure by itself.
+  
+  
+  USE CLASSIFICATION AND regression for be used to analyse data and provide the answer to whether a transaction was genuine or fraudulent.
+  
+  The idea that can be used :
+  - Logistic Regression 
+  - Decision tree 
+  - Random Forest 
+  - Neural Networks 
+  
+  
+  Unsupervised Learning based on Clustering :
+  - K means 
+  - Local Outlier Factor
+  - One Class SVM 
+  
+                                                            DATA 
+  
+  CON of using ML over Manual : 
+  few fraudulent transactions within these, which can reduce a system’s predictive capability
+  
+  How to deal with the above CON ?
+  - Artificially creating data points of under represented Class ( Over sampling ) 
+  
+  
+  Can do the above via : SMOTE ( synthetic Minority Over sampling tech. ) 
+  
+  Firstly indentify minorty class and learn its features 
+  
+  
+  undersampling : randomly samples the dominant class to reduce its size
+  
+  The third approach, called the Combined Class Method, uses SMOTE to interpolate noisy data points on the boundary between outliers and inliers and the nearest neighbour technique to clean the data near the separatrix of both classes, making datasets cleaner and easier to distinguish.
+  
+ 
+ 
+  
+  
