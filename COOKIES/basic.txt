@@ -1,0 +1,29 @@
+HTTP cookies : HyperText Transfer protocol 
+
+text file + data 
+
+stored on web browser track users journey 
+
+
+Features specific to user .
+
+USES :
+1. establish whether a visitor coming to Netscape's website had already visited it or not.
+
+only allowed once a user had explicitly opted into them
+
+
+For each specific user, there will be bits of data that are associated with them by cookies
+
+KINDS 
+session cokies :  e-commerce webste 
+
+persistance cookies ( come with expiry date )  : Persistent cookies, can, therefore, track your browsing activity not just
+on the original site where the cookie was created but on other sites that have a resource which has 
+been produced by the original site.
+
+create a user activity log across a range of different websites
+
+Remember me :
+
+
