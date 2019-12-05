@@ -27,3 +27,16 @@ create a user activity log across a range of different websites
 Remember me :
 
 
+First Party cookies :
+possibilities :
+add more than one transaction 
+recognise a site visitor over and over again.
+
+?? websites use cookies to log their users in automatically
+
+traffic on the website : calculations 
+potential possible customers 
+
+
+Basic data file 
+Cookie can store up to /
