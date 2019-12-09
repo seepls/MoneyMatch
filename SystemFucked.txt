@@ -1,0 +1,17 @@
+TODO :
+XGBoost
+One hot encoding 
+cORRECT SYSTEM !
+
+
+First can I complie normal python -- okay!
+can i read >
+ATR
+
+
+right and wrong way to set up python 
+
+how to set up classes in non uniform data distribution 
+
+install 
+tensor flow 
