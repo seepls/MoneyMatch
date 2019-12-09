@@ -39,4 +39,6 @@ FUTURE :
 ### Can INPUT ::
 How to improve data tracking and correction
 
+Strategy development for coupon 
+
 
