@@ -13,5 +13,18 @@ right and wrong way to set up python
 
 how to set up classes in non uniform data distribution 
 
-install 
+install :: 
 tensor flow 
+{ HOW TO SET UP A PERFECT DATA SCIENCE SYSTEM } 
+
+anaconda man 
+
+
+GOOD POINTS ABOUT MY SYSTEM :: 
+1. MATLAB MAN <3 
+2. TERMINAL IS LIT 
+3. GRAPHICAL USER INTERFACE IS LOVE 
+
+
+OKAY ITS ALL WORTH AND I AM GONNA ACE 
+
