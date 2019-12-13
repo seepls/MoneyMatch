@@ -1,0 +1,22 @@
+aggregate over a time 
+feature engineering
+
+Scaled rideg regression : sklearn
+
+AWS (Neural Network ) :
+ - built in algorithm 
+ - trained and test 2 layers of RNN 
+ - resample on finer time granularity 
+ - features 
+
+Real time forecasting 
+REST API 
+Real time prediction and automated scheduling 
+
+
+
+USE ML to create real time pipeline using recurrent neural network on AWS
+
+rest API to make real time prediction of future usage and automate scheduling of resource  provision.
+
+
