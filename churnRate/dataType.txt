@@ -1,0 +1,17 @@
+Data characterisitic :
+samples
+predictors
+response characteristic
+categorical
+continuous 
+balanced 
+symmetric
+unbalanced
+skewed
+independent
+predictor
+characteristic 
+count
+different scales 
+missing values
+sparse 
