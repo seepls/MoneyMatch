@@ -20,3 +20,8 @@ USE ML to create real time pipeline using recurrent neural network on AWS
 rest API to make real time prediction of future usage and automate scheduling of resource  provision.
 
 
+SMOTE ( synthetic Minority Oversampling Technique ) 
+
+
+Automating the process : P 
+pRETTY EASY AG 
