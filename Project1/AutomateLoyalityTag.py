@@ -34,8 +34,8 @@ for id1 in df2['LoyalOne']:
             df1['LoyalityTag'] = 1 
 
 '''
-df3.loc[df3['NoTransQuartile'] < 6, 'LoyalityTag'] = 0
-df3.loc[df3['NoTransQuartile'] >= 6, 'LoyalityTag'] = 1
+df3.loc[df3['NoTransQuartile'] < 6, 'LoyalityTag'] = 1
+df3.loc[df3['NoTransQuartile'] >= 6, 'LoyalityTag'] = 0
 
 df4 = pd.merge(df1, df3 , on = 'user_id' , how = 'left' )
 df4.to_csv('loyalTagmerged.csv')
