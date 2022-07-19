@@ -1,44 +1,15 @@
 ### MoneyMatch
 Project
 
-NICHE OF THE STARTUP : UNDER SERVED CUSTOMERS 
+Niche of the project is to serve UNDER SERVED CUSTOMERS with good rates.
 
-ML in Finance 
-
-Project 1 :  (Week 1 ) 
-Fraud detection / threat detection : 
-1. Types possible 
-choose one 
-2. How to stop it 
-
-Engenering team : Compliance System Integrated with ML 
-
-Project 2:  ( Week 2 + week 3.5  ) 
-
-Flag set Up :
-- what all to flag 
-- what to look at (MA) :
-- Already Working on it, what features to 
+Price sensitivity classifier for coupon allocation : based on margin of transaction. We provide midrate to our customers. 
+If someone waits for a bigger margin to transact then he is highly price sensitive. 
+Old customer : proxy =( interbank - midrate) /interbank 
 
 
-Project 3 : (Week 3.5 + 4) 
-PREDICTION SYSTEM FOR 
-- Operation Profit 
-- FUTURE POSSIBLE Coupon UseAGE  
-- etc 
-
- 
-Artificial Intelligence can be used to calculate and analyse cash flows and predict future scenarios
-  
+Churn rate pridiction of customers. 
 
 
-FUTURE : 
-- USING NLP IN COMPLIANCE 
-- Provide Compliance as Service  / Compliance solution 
-
-### Can INPUT ::
-How to improve data tracking and correction
-
-Strategy development for coupon 
-
-
+FUTURE of this project : 
+NLP in Compliance for Fraud detection. To provide Compliance as Service  / Compliance solution. 
