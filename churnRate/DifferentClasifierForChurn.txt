@@ -1,24 +1,22 @@
-
-
-snippet 1:
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier as RF
 from sklearn.neighbors import KNeighborsClassifier as KNN
+from sklearn.cross_validation import KFold
+from sklearn.metrics import confusion_matrix
+from churn_display import draw_confusion_matrices
+%matplotlib inline
+import warnings
+warnings.filterwarnings('ignore')
+
+ 
+
+
+y = np.array(y)
+class_names = np.unique(y)
+
 
 def accuracy(y_true,y_pred):
-    # NumPy interprets True and False as 1. and 0.
     return np.mean(y_true == y_pred)
-
-print "Support vector machines:"
-print "%.3f" % accuracy(y, run_cv(X,y,SVC))
-print "Random forest:"
-print "%.3f" % accuracy(y, run_cv(X,y,RF))
-print "K-nearest-neighbors:"
-print "%.3f" % accuracy(y, run_cv(X,y,KNN))
-
-
-snippet 2 :
-from sklearn.cross_validation import KFold
 
 def run_cv(X,y,clf_class,**kwargs):
     # Construct a kfolds object
@@ -35,15 +33,6 @@ def run_cv(X,y,clf_class,**kwargs):
         y_pred[test_index] = clf.predict(X_test)
     return y_pred
     
-    
-    
- Snippet 3 :
- CONFUSION MATRIX 
- 
-from sklearn.metrics import confusion_matrix
-
-y = np.array(y)
-class_names = np.unique(y)
 
 confusion_matrices = [
     ( "Support Vector Machines", confusion_matrix(y,run_cv(X,y,SVC)) ),
@@ -51,23 +40,24 @@ confusion_matrices = [
     ( "K-Nearest-Neighbors", confusion_matrix(y,run_cv(X,y,KNN)) ),
 ]
 
-# Pyplot code not included to reduce clutter
-from churn_display import draw_confusion_matrices
-%matplotlib inline
-
 draw_confusion_matrices(confusion_matrices,class_names)
 
+print "Support vector machines:"
+print "%.3f" % accuracy(y, run_cv(X,y,SVC))
+print "Random forest:"
+print "%.3f" % accuracy(y, run_cv(X,y,RF))
+print "K-nearest-neighbors:"
+print "%.3f" % accuracy(y, run_cv(X,y,KNN))
+    
 
 
-Snippet 4 :
-# Prob - Pediction shit ! 
-import warnings
-warnings.filterwarnings('ignore')
+
+
 
 # Use 10 estimators so predictions are all multiples of 0.1
 pred_prob = run_prob_cv(X, y, RF, n_estimators=10)
 pred_churn = pred_prob[:,1]
-is_churn = y == 1
+is_churn = y 
 
 # Number of times a predicted probability is assigned to an observation
 counts = pd.value_counts(pred_churn)
